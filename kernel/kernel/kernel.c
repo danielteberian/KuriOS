@@ -5,5 +5,5 @@
 void kernel_main(void)
 {
 //	term_init();
-	printf("Howdy, kernel!\n");
+//	printf("Howdy, kernel!\n");
 }
