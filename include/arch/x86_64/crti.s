@@ -4,7 +4,8 @@
 
 _init:
 	push %rbp
-	movl %esp, %ebp
+	movq %rsp, %rbp
+
 
 .section .fini
 .global _fini
@@ -12,4 +13,4 @@ _init:
 
 _fini:
 	push %rbp
-	movl %esp, %ebp
+	movq %rsp, %rbp
